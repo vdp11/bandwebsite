@@ -1,10 +1,8 @@
-class BandMember:
+def band_Member(Flee):
     
-    def __init__(self, Flee, Guitar):
-        # Initialize member attributes
-        self.name = Flee
-        self.role = Guitar
+    """
+    Flee is the master of the bass guitar, providing the band's rhythm section with a deep and resonating foundation. His basslines are the heartbeat of RedHot's music, driving the songs with precision and groove.
 
-    def introduce(self):
-        
-        return f"I'm {self.Flee}, and I play {self.Guitar} in the band."
+    """
+    result = Flee
+    return result
