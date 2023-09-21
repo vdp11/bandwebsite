@@ -89,7 +89,7 @@ We would like to extend our thanks to the following people and projects for thei
 For questions, feedback, or collaboration inquiries, please feel free to reach out to us:
 
 - **Email:** daniel_k_vdp@hotmail.com
-- **GitHub:** [MyBandWebsite on GitHub](https://github.com/vdp11/bandwebsite.git)
+- **GitHub:** (https://github.com/vdp11/bandwebsite.git)
 
 ##License
 This project is licensed under the MIT License - see the LICENSE file for details.
