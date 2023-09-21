@@ -76,10 +76,6 @@ We plan to add new features like user authentication and a music player in futur
 - On mobile devices, the website layout may not render perfectly. We're actively working on improving this.
 - The contact form occasionally experiences delays in email delivery.
 
-### Updates
-
-- **Version 1.1.0 (September 2023):** Added support for event registration.
-- **Version 1.0.0 (August 2023):** Initial release.
 
 
 ## Acknowledgments
