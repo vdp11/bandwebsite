@@ -1,7 +1,8 @@
+"""
 def render_band_page(about):
     
     # Actual code to generate the HTML page goes here
-    html_content = """
+    html_content = 
     <html>
     <head>
         <title>Band App - Home</title>
@@ -12,7 +13,7 @@ def render_band_page(about):
         <p>Check out our upcoming events and latest releases.</p>
     </body>
     </html>
-    """
+    
     # Generate the HTML content using band_info
     # Add band information to the HTML content
     html_content += "<h1>Band Information</h1>"
@@ -20,3 +21,4 @@ def render_band_page(about):
         html_content += f"<p><strong>{key}:</strong> {value}</p>"
     html_content += "</body></html>"
     return html_content
+    """
