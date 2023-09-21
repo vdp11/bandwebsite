@@ -51,10 +51,10 @@ John
    :undoc-members:
    :show-inheritance:
 
-Albums and Live Performances
-----------------------------
+Albums
+------
 
-.. automodule:: bandwebsite.Albums and Live Performances
+.. automodule:: bandwebsite.Albums
    :members:
    :undoc-members:
    :show-inheritance:
