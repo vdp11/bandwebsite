@@ -47,15 +47,18 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">bandwebsite package</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite.Flee">bandwebsite.Flee module</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#bandwebsite.Flee.BandMember"><code class="docutils literal notranslate"><span class="pre">BandMember</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bandwebsite.Flee.band_Member"><code class="docutils literal notranslate"><span class="pre">band_Member()</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite.about">bandwebsite.about module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite.asgi">bandwebsite.asgi module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite.about">bandwebsite.about module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#bandwebsite.about.render_band_page"><code class="docutils literal notranslate"><span class="pre">render_band_page()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#bandwebsite-asgi-module">bandwebsite.asgi module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bandwebsite-redhot-band-module">bandwebsite.redhot band module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite.settings">bandwebsite.settings module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite.urls">bandwebsite.urls module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite.wsgi">bandwebsite.wsgi module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bandwebsite-urls-module">bandwebsite.urls module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bandwebsite-wsgi-module">bandwebsite.wsgi module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#module-bandwebsite">Module contents</a></li>
 </ul>
 </li>
@@ -95,55 +98,26 @@
 </section>
 <section id="module-bandwebsite.Flee">
 <span id="bandwebsite-flee-module"></span><h2>bandwebsite.Flee module<a class="headerlink" href="#module-bandwebsite.Flee" title="Link to this heading"></a></h2>
-<dl class="py class">
-<dt class="sig sig-object py" id="bandwebsite.Flee.BandMember">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bandwebsite.Flee.</span></span><span class="sig-name descname"><span class="pre">BandMember</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Flee</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Guitar</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bandwebsite/Flee.html#BandMember"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bandwebsite.Flee.BandMember" title="Link to this definition"></a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="py method">
-<dt class="sig sig-object py" id="bandwebsite.Flee.BandMember.introduce">
-<span class="sig-name descname"><span class="pre">introduce</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/bandwebsite/Flee.html#BandMember.introduce"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bandwebsite.Flee.BandMember.introduce" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
+<dl class="py function">
+<dt class="sig sig-object py" id="bandwebsite.Flee.band_Member">
+<span class="sig-prename descclassname"><span class="pre">bandwebsite.Flee.</span></span><span class="sig-name descname"><span class="pre">band_Member</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Flee</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bandwebsite/Flee.html#band_Member"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bandwebsite.Flee.band_Member" title="Link to this definition"></a></dt>
+<dd><p>Flee is the master of the bass guitar, providing the band’s rhythm section with a deep and resonating foundation. His basslines are the heartbeat of RedHot’s music, driving the songs with precision and groove.</p>
 </dd></dl>
 
 </section>
 <section id="module-bandwebsite.about">
 <span id="bandwebsite-about-module"></span><h2>bandwebsite.about module<a class="headerlink" href="#module-bandwebsite.about" title="Link to this heading"></a></h2>
-<p>def render_band_page(about):</p>
-<blockquote>
-<div><p># Actual code to generate the HTML page goes here
-html_content =
-&lt;html&gt;
-&lt;head&gt;</p>
-<blockquote>
-<div><p>&lt;title&gt;Band App - Home&lt;/title&gt;</p>
-</div></blockquote>
-<p>&lt;/head&gt;
-&lt;body&gt;</p>
-<blockquote>
-<div><p>&lt;h1&gt;We are redhot!&lt;/h1&gt;
-&lt;p&gt;Thank you for visiting our website. We are excited to share our music with you. The best and most exciting rock band!&lt;/p&gt;
-&lt;p&gt;Check out our upcoming events and latest releases.&lt;/p&gt;</p>
-</div></blockquote>
-<p>&lt;/body&gt;
-&lt;/html&gt;</p>
-<p># Generate the HTML content using band_info
-# Add band information to the HTML content
-html_content += “&lt;h1&gt;Band Information&lt;/h1&gt;”
-for key, value in about.items():</p>
-<blockquote>
-<div><p>html_content += f”&lt;p&gt;&lt;strong&gt;{key}:&lt;/strong&gt; {value}&lt;/p&gt;”</p>
-</div></blockquote>
-<p>html_content += “&lt;/body&gt;&lt;/html&gt;”
-return html_content</p>
-</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="bandwebsite.about.render_band_page">
+<span class="sig-prename descclassname"><span class="pre">bandwebsite.about.</span></span><span class="sig-name descname"><span class="pre">render_band_page</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">about</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bandwebsite/about.html#render_band_page"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bandwebsite.about.render_band_page" title="Link to this definition"></a></dt>
+<dd><p>Band Name: RedHot</p>
+<p>Genre: Rock</p>
+<p>RedHot is a renowned rock band hailing from the United States. Formed in the early 2000s, the band has solidified its place in the rock music scene with a powerful lineup of talented musicians. RedHot consists of four core members, each contributing their unique skills and charisma to the band’s distinctive sound.</p>
+</dd></dl>
+
 </section>
-<section id="module-bandwebsite.asgi">
-<span id="bandwebsite-asgi-module"></span><h2>bandwebsite.asgi module<a class="headerlink" href="#module-bandwebsite.asgi" title="Link to this heading"></a></h2>
-<p>ASGI config for bandwebsite project.</p>
-<p>It exposes the ASGI callable as a module-level variable named <code class="docutils literal notranslate"><span class="pre">application</span></code>.</p>
-<p>For more information on this file, see
-<a class="reference external" href="https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/">https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/</a></p>
+<section id="bandwebsite-asgi-module">
+<h2>bandwebsite.asgi module<a class="headerlink" href="#bandwebsite-asgi-module" title="Link to this heading"></a></h2>
 </section>
 <section id="bandwebsite-redhot-band-module">
 <h2>bandwebsite.redhot band module<a class="headerlink" href="#bandwebsite-redhot-band-module" title="Link to this heading"></a></h2>
@@ -157,40 +131,11 @@ return html_content</p>
 <p>For the full list of settings and their values, see
 <a class="reference external" href="https://docs.djangoproject.com/en/4.2/ref/settings/">https://docs.djangoproject.com/en/4.2/ref/settings/</a></p>
 </section>
-<section id="module-bandwebsite.urls">
-<span id="bandwebsite-urls-module"></span><h2>bandwebsite.urls module<a class="headerlink" href="#module-bandwebsite.urls" title="Link to this heading"></a></h2>
-<p>URL configuration for bandwebsite project.</p>
-<dl class="simple">
-<dt>The <cite>urlpatterns</cite> list routes URLs to views. For more information please see:</dt><dd><p><a class="reference external" href="https://docs.djangoproject.com/en/4.2/topics/http/urls/">https://docs.djangoproject.com/en/4.2/topics/http/urls/</a></p>
-</dd>
-</dl>
-<p>Examples:
-Function views</p>
-<blockquote>
-<div><ol class="arabic simple">
-<li><p>Add an import:  from my_app import views</p></li>
-<li><p>Add a URL to urlpatterns:  path(‘’, views.home, name=’home’)</p></li>
-</ol>
-</div></blockquote>
-<dl class="simple">
-<dt>Class-based views</dt><dd><ol class="arabic simple">
-<li><p>Add an import:  from other_app.views import Home</p></li>
-<li><p>Add a URL to urlpatterns:  path(‘’, Home.as_view(), name=’home’)</p></li>
-</ol>
-</dd>
-<dt>Including another URLconf</dt><dd><ol class="arabic simple">
-<li><p>Import the include() function: from django.urls import include, path</p></li>
-<li><p>Add a URL to urlpatterns:  path(‘blog/’, include(‘blog.urls’))</p></li>
-</ol>
-</dd>
-</dl>
+<section id="bandwebsite-urls-module">
+<h2>bandwebsite.urls module<a class="headerlink" href="#bandwebsite-urls-module" title="Link to this heading"></a></h2>
 </section>
-<section id="module-bandwebsite.wsgi">
-<span id="bandwebsite-wsgi-module"></span><h2>bandwebsite.wsgi module<a class="headerlink" href="#module-bandwebsite.wsgi" title="Link to this heading"></a></h2>
-<p>WSGI config for bandwebsite project.</p>
-<p>It exposes the WSGI callable as a module-level variable named <code class="docutils literal notranslate"><span class="pre">application</span></code>.</p>
-<p>For more information on this file, see
-<a class="reference external" href="https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/">https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/</a></p>
+<section id="bandwebsite-wsgi-module">
+<h2>bandwebsite.wsgi module<a class="headerlink" href="#bandwebsite-wsgi-module" title="Link to this heading"></a></h2>
 </section>
 <section id="module-bandwebsite">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-bandwebsite" title="Link to this heading"></a></h2>
