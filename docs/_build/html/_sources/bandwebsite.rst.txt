@@ -5,7 +5,7 @@ Submodules
 ----------
 
 bandwebsite.Members module
------------------------
+--------------------------
 
 .. automodule:: bandwebsite.Members
    :members:
@@ -20,15 +20,15 @@ bandwebsite.about module
    :undoc-members:
    :show-inheritance:
 
-bandwebsite module
+bandwebsite.Flee module
 -----------------------
 
 .. automodule:: bandwebsite.Flee
    :undoc-members:
    :show-inheritance:
 
-bandwebsite module
-------------------------------
+bandwebsite.Anthony module
+--------------------------
 
 .. automodule:: bandwebsite.Anthony
    :members:
@@ -43,7 +43,7 @@ bandwebsite.settings module
    :undoc-members:
    :show-inheritance:
 
-bandwebsite module
+bandwebsite.Dave module
 -----------------------
 
 .. automodule:: bandwebsite.Dave
@@ -51,7 +51,7 @@ bandwebsite module
    :undoc-members:
    :show-inheritance:
 
-bandwebsite module
+bandwebsite.John module
 -----------------------
 
 .. automodule:: bandwebsite.John
@@ -59,8 +59,8 @@ bandwebsite module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
+bandwebsite.Albums and Live Performances
+----------------------------------------
 
 .. automodule:: bandwebsite.Albums and Live Performances
    :members:

@@ -4,63 +4,56 @@ bandwebsite package
 Submodules
 ----------
 
-bandwebsite.Members module
---------------------------
+Members
+-------
 
 .. automodule:: bandwebsite.Members
    :members:
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.about module
-------------------------
+about
+-----
 
 .. automodule:: bandwebsite.about
    :members:
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.Flee module
------------------------
+Flee
+----
 
 .. automodule:: bandwebsite.Flee
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.Anthony module
---------------------------
+Anthony
+-------
 
 .. automodule:: bandwebsite.Anthony
    :members:
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.settings module
----------------------------
 
-.. automodule:: bandwebsite.settings
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-bandwebsite.Dave module
------------------------
+Dave
+----
 
 .. automodule:: bandwebsite.Dave
    :members:
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.John module
------------------------
+John
+----
 
 .. automodule:: bandwebsite.John
    :members:
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.Albums and Live Performances
-----------------------------------------
+Albums and Live Performances
+----------------------------
 
 .. automodule:: bandwebsite.Albums and Live Performances
    :members:
