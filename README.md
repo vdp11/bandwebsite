@@ -1,4 +1,3 @@
-=======
 ## Introduction
 
 This is my Django Capstone Project, a web application for managing a music band's website. It allows users to view information about the band and its members.
