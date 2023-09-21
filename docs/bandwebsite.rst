@@ -10,10 +10,10 @@ Members
    :undoc-members:
    :show-inheritance:
 
-about
+About
 -----
 
-.. automodule:: bandwebsite.about
+.. automodule:: bandwebsite.About
    :members:
    :undoc-members:
    :show-inheritance:
