@@ -1,8 +1,6 @@
-bandwebsite package
-===================
+bandwebsite
+===========
 
-Submodules
-----------
 
 Members
 -------
@@ -24,6 +22,7 @@ Flee
 ----
 
 .. automodule:: bandwebsite.Flee
+   :members:
    :undoc-members:
    :show-inheritance:
 
