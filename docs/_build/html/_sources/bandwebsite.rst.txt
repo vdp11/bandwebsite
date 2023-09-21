@@ -4,10 +4,10 @@ bandwebsite package
 Submodules
 ----------
 
-bandwebsite.Flee module
+bandwebsite.Members module
 -----------------------
 
-.. automodule:: bandwebsite.Flee
+.. automodule:: bandwebsite.Members
    :members:
    :undoc-members:
    :show-inheritance:
@@ -20,18 +20,17 @@ bandwebsite.about module
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.asgi module
+bandwebsite module
 -----------------------
 
-.. automodule:: bandwebsite.asgi
-   :members:
+.. automodule:: bandwebsite.Flee
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.redhot band module
+bandwebsite module
 ------------------------------
 
-.. automodule:: bandwebsite.redhot band
+.. automodule:: bandwebsite.Anthony
    :members:
    :undoc-members:
    :show-inheritance:
@@ -44,18 +43,18 @@ bandwebsite.settings module
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.urls module
+bandwebsite module
 -----------------------
 
-.. automodule:: bandwebsite.urls
+.. automodule:: bandwebsite.Dave
    :members:
    :undoc-members:
    :show-inheritance:
 
-bandwebsite.wsgi module
+bandwebsite module
 -----------------------
 
-.. automodule:: bandwebsite.wsgi
+.. automodule:: bandwebsite.John
    :members:
    :undoc-members:
    :show-inheritance:
@@ -63,7 +62,7 @@ bandwebsite.wsgi module
 Module contents
 ---------------
 
-.. automodule:: bandwebsite
+.. automodule:: bandwebsite.Albums and Live Performances
    :members:
    :undoc-members:
    :show-inheritance:
